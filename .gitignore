@@ -1,0 +1,26 @@
+/.idea/
+*.iml
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+/venv/   # Or the name of your virtual environment folder
+/build/
+/dist/
+*.egg-info/
+
+# Testcontainers
+/testcontainers_logs/
+/target/  # If Testcontainers stores data here
+
+/venv/**
+.DS_Store
+fb.xml
+
+server-monitor.iml
+
+find_item.sh
+search.sh
+config.ini
+/src/monitor/config/config_old.py

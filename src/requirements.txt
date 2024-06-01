@@ -1,0 +1,10 @@
+dash
+dash-bootstrap-components
+plotly
+psutil
+pymysql
+redis
+pymongo
+requests
+paramiko
+pandas
