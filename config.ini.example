@@ -1,0 +1,31 @@
+[server1]
+host = host1
+redis_port = 6379
+mysql_port = 3306
+mongodb_port = 27017
+mysql_user = user
+mysql_password = xxxxxx
+
+[server2]
+host = host2
+ssh_port = 22
+tomcat_ports = port1,port2,port3
+httpd_ports = httpd_port
+
+## Add as many servers as you want
+
+[email]
+smtp_server = smtp.host.com
+smtp_port = port
+username = username
+password = xxxxxx
+from_email = from@host.com
+to_emails = to@example.com,other@host.com
+
+[ssh]
+remote_host = remote_host_ip
+remote_port = port
+username = username
+password = xxxxxxx
+local_bind_port = local_bind_port
+remote_bind_port = remote_bind_port
